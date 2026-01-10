@@ -10,8 +10,6 @@
           stroke-width="4"
           stroke-dasharray="10 10"/>
 
-  <!-- ===== Nodes ===== -->
-
   <!-- Computer Architecture -->
   <a href="../architecture/">
     <g>
@@ -37,13 +35,13 @@
     </g>
   </a>
 
-  <!-- Kernel & OS -->
+  <!-- Kernel &amp; OS -->
   <a href="../kernel-os/">
     <g>
       <circle cx="610" cy="490" r="58" fill="#fff3e0"/>
       <text x="610" y="475" text-anchor="middle" font-size="24">⚙️</text>
       <text x="610" y="500" text-anchor="middle" font-size="13" font-weight="bold">
-        Kernel & OS
+        Kernel &amp; OS
       </text>
       <text x="610" y="518" text-anchor="middle" font-size="13" font-weight="bold">
         Concepts
@@ -65,13 +63,13 @@
     </g>
   </a>
 
-  <!-- Power & Performance -->
+  <!-- Power &amp; Performance -->
   <a href="../power-performance/">
     <g>
       <circle cx="110" cy="360" r="58" fill="#ffebee"/>
       <text x="110" y="350" text-anchor="middle" font-size="24">⚡</text>
       <text x="110" y="375" text-anchor="middle" font-size="13" font-weight="bold">
-        Power &
+        Power &amp;
       </text>
       <text x="110" y="393" text-anchor="middle" font-size="13" font-weight="bold">
         Performance
