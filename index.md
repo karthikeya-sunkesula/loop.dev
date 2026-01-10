@@ -1,7 +1,3 @@
----
-title: The Loop
----
-
 # The Loop
 
 A systems engineering blog following a continuous learning loop:
