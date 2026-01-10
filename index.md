@@ -7,9 +7,8 @@ This site connects fundamentals with real-world systems like **Linux**, **Androi
 ---
 
 ## 🔁 The Learning Loop
+## 🔁 The Learning Loop
 
-![The Learning Loop](assets/images/the-loop.svg)
+![The Learning Loop](/loop.dev/assets/images/the-loop.svg)
 
 👉 Click any topic to explore that section.
-
-![The Learning Loop](assets/images/the-loop.svg)
