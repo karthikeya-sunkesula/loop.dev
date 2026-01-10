@@ -12,3 +12,15 @@ This site connects fundamentals with real-world systems like **Linux**, **Androi
 ![The Learning Loop](/loop.dev/assets/images/the-loop.svg)
 
 👉 Click any topic to explore that section.
+
+
+
+....
+<object data="/loop.dev/assets/images/the-loop.svg"
+        type="image/svg+xml"
+        width="720"
+        height="720"
+        aria-label="The Learning Loop diagram">
+</object>
+
+<p><em>Click any topic in the loop to explore that section.</em></p>
