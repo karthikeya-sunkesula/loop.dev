@@ -1,5 +1,3 @@
-# The Loop
-
 A systems engineering blog following a continuous learning loop:
 
 **computer architecture → C programming → kernel & OS concepts → embedded systems essentials → power and performance engineering**
