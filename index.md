@@ -1,5 +1,4 @@
-A systems engineering blog following a continuous learning loop:
-
+A systems engineering blog built around a continuous learning loop:
 **computer architecture → C programming → kernel & OS concepts → embedded systems essentials → power and performance engineering**
 
 This site connects fundamentals with real-world systems like **Linux**, **Android**, and **ARM-based SoCs**.
@@ -14,4 +13,4 @@ This site connects fundamentals with real-world systems like **Linux**, **Androi
         aria-label="The Learning Loop diagram">
 </object>
 
-<p><em>Click any topic in the loop to explore that section.</em></p>
+<p><em>Click any topic in the loop to explore that area in depth.</em></p>
