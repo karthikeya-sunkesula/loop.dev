@@ -6,11 +6,12 @@ This site connects fundamentals with real-world systems like **Linux**, **Androi
 ---
 
 ## 🔁 The Learning Loop
-<object data="/loop.dev/assets/images/the-loop.svg"
-        type="image/svg+xml"
-        width="720"
-        height="720"
-        aria-label="The Learning Loop diagram">
-</object>
+<div style="display: flex; justify-content: center;">
+  <object data="/loop.dev/assets/images/the-loop.svg"
+          type="image/svg+xml"
+          aria-label="The Learning Loop diagram"
+          style="max-width: 100%; height: auto;">
+  </object>
+</div>
 
 <p><em>Click any topic in the loop to explore that area in depth.</em></p>
