@@ -3,7 +3,7 @@ A systems engineering blog built around a continuous learning loop:
 
 This site connects fundamentals with real-world systems like **Linux**, **Android**, and **ARM-based SoCs**.
 
----
+-----
 
 ## 🔁 The Learning Loop
 <div style="display: flex; justify-content: center;">
