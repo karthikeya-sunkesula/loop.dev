@@ -1,6 +1,6 @@
 ---
 title: CPU Memory — ARM SoC Edition
-author: Karthik S
+author: Karthikeya Sunkesula
 version: 0.1
 status: Draft
 target: ARMv8.4+, ARMv9
