@@ -2,90 +2,91 @@
 
 **CPU Memory — ARM SoC Edition** is a long-form technical documentation project focused on explaining CPU and system memory behavior in **modern ARM-based System-on-Chips (SoCs)**.
 
-The document is inspired by *“What Every Programmer Should Know About Memory”*, but takes an **ARM-first approach**, reflecting real-world SoC designs used in mobile, embedded, and heterogeneous computing platforms.
+The document takes an **ARM-first approach**, grounded in real SoC designs, operating systems, and performance/power trade-offs.  
+It is intended as a **reference**, not a blog series.
 
 ---
 
-## Purpose
+## 📘 Table of Contents (GitHub Navigation)
 
-- Present a clear, practical understanding of memory systems on ARM SoCs
-- Bridge architectural specifications with operating system behavior
-- Highlight performance and power implications of memory design choices
-- Serve as a reference document for systems and kernel engineers
+> ⚠️ Note  
+> This repository is authored using Pandoc-compatible Markdown.  
+> The file `main.md` is used **only for building the final PDF** and is **not intended for reading on GitHub**.
 
----
-
-## Scope
-
-This project covers memory concepts across multiple layers, including:
-
-- ARMv8 and ARMv9 architecture
-- Cache hierarchy and coherency
-- MMU, page tables, and TLB behavior
-- System caches and interconnects
-- Linux kernel memory management
-- Android-specific memory behavior
-- Performance and energy considerations
-
-The focus is on **how memory actually behaves on ARM systems**, not only how it is described in specifications.
+Use the links below to browse the content on GitHub.
 
 ---
 
-## Project Structure
+### **Part I: ARM Memory Foundations**
 
-cpu-memory-arm/
-├── README.md
-├── main.md
-├── chapters/
-├── figures/
-├── tables/
-├── references.bib
-├── build.sh
-└── build/
-
-
-Markdown files are the **source of truth**.  
-Generated PDFs are treated as **build artifacts**.
+- [1. Evolution of ARM Memory Systems](chapters/part1-foundations/01-evolution-of-arm-memory.md)  
+- [2. ARM Memory Model](chapters/part1-foundations/02-arm-memory-model.md)
 
 ---
 
-## Authoring and Build Model
+### **Part II: Cache Hierarchy in ARM SoCs**
 
-- **Authoring format:** Markdown (Pandoc-compatible)
-- **Editing:** Local editing (e.g., VS Code)
+- [3. L1/L2 Cache Microarchitecture](chapters/part2-caches/03-l1-l2-microarchitecture.md)  
+- [4. Shared L3 / System Cache](chapters/part2-caches/04-shared-l3-system-cache.md)  
+- [5. Cache Coherency Protocols](chapters/part2-caches/05-cache-coherency.md)
+
+---
+
+### **Part III: DRAM, Interconnects & Latency**
+
+- [6. ARM Interconnects](chapters/part3-dram-interconnects/06-arm-interconnects.md)  
+- [7. DRAM in Mobile SoCs](chapters/part3-dram-interconnects/07-dram-mobile-socs.md)
+
+---
+
+### **Part IV: OS & Software Stack**
+
+- [8. Linux Memory Management on ARM](chapters/part4-os-stack/08-linux-memory-arm.md)  
+- [9. Android-Specific Memory Behavior](chapters/part4-os-stack/09-android-memory.md)
+
+---
+
+### **Part V: Power-Aware Memory Systems**
+
+- [10. Memory ↔ Power Coupling](chapters/part5-power-aware/10-memory-power-coupling.md)  
+- [11. Scheduling, Memory & Energy](chapters/part5-power-aware/11-scheduling-memory-energy.md)
+
+---
+
+### **Part VI: Measurement & Tooling**
+
+- [12. Measuring Memory Behavior](chapters/part6-measurement/12-measuring-memory.md)  
+- [13. Perfetto & Tracing](chapters/part6-measurement/13-perfetto-tracing.md)
+
+---
+
+### **Part VII: Practical Guidance**
+
+- [14. Writing ARM-Friendly Software](chapters/part7-practical/14-arm-friendly-software.md)  
+- [15. Kernel & BSP Pitfalls](chapters/part7-practical/15-kernel-bsp-pitfalls.md)
+
+---
+
+## 🛠️ Build Model (for reference)
+
+- **Source format:** Markdown (Pandoc-compatible)
+- **Build entry point:** `main.md`
 - **Build tool:** Pandoc
 - **Primary output:** PDF
 
-The document is written locally and version-controlled using Git.  
-PDFs are generated only when needed for review or publication.
+`main.md` is intentionally **not GitHub-renderable** and should be treated like a build file.
 
 ---
 
-## Status
+## 📌 Status
 
-- **Current status:** Draft / Work in Progress
-- **Target architectures:** ARMv8.4+, ARMv9
-- **Intended audience:**  
+- **Status:** Draft / Work in Progress  
+- **Target architectures:** ARMv8.4+, ARMv9  
+- **Audience:**  
   - Systems programmers  
   - Kernel and OS developers  
   - Embedded and SoC engineers  
   - Performance and power engineers  
-
----
-
-## Non-goals
-
-- Beginner-level tutorials
-- x86-centric memory discussions
-- Vendor-specific implementation details
-
----
-
-## License
-
-To be defined.
-
-Until a license is specified, this material is shared for learning and discussion purposes only.
 
 ---
 
