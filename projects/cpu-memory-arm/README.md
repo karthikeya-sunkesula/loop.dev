@@ -19,7 +19,7 @@ Use the links below to browse the content on GitHub.
 
 ### **Part I: ARM Memory Foundations**
 
-- [1. Evolution of ARM Memory Systems](chapters/part1-foundations/01-Introduction.md)  
+- [1. Introduction](chapters/part1-foundations/01-Introduction.md)  
 - [2. ARM Memory Model](chapters/part1-foundations/02-arm-memory-model.md)
 
 ---
