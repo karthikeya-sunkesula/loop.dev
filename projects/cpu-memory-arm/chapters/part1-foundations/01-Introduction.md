@@ -12,6 +12,8 @@ Over the past decades, processor performance, core counts, and parallelism have 
 The result is that memory has become the dominant **performance and energy-efficiency bottleneck** in modern systems.  
 On contemporary ARM-based System-on-Chips (SoCs), memory behavior determines not only how fast software runs, but also how much energy the system consumes to achieve that performance.
 
+As a result, reasoning about modern systems increasingly requires understanding **which memory-related factors dominate performance and energy**, rather than focusing solely on CPU execution speed.
+
 ---
 
 ## 1.2 Why ARM Systems Are Different
@@ -50,10 +52,12 @@ Memory is therefore a **shared, system-level resource**, and its behavior direct
 
 The system-level nature of memory leads to consequences that are often surprising to software developers:
 
-- Adding CPU cores does not necessarily improve performance once memory bandwidth or latency becomes limiting.
+- Adding CPU cores does not necessarily improve performance once memory latency or bandwidth becomes limiting.
 - A cache miss or memory stall is not only a performance penalty, but also an energy event that keeps CPUs, interconnects, and DRAM active longer than necessary.
 - Seemingly small changes in memory access patterns can dramatically affect both throughput and power consumption.
-- Optimizations that improve raw performance may reduce energy efficiency or battery life.
+- Optimizations that improve raw performance may reduce overall energy efficiency or battery life.
+
+Many performance and energy problems on modern systems arise from confusing **latency-limited behavior** with **bandwidth-limited behavior**, a distinction that recurs throughout this document.
 
 These effects are especially visible on mobile and embedded ARM platforms, where power budgets are tight and memory behavior dominates system dynamics.
 
